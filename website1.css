@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+}
+
+.background {
+    margin: 0;
+    height: 1000px;
+    width: 100%;
+    margin-bottom: -5px;
+
+}
+
+button {
+    position: fixed;
+    top: 20px;
+    color: rgb(123, 115, 115);
+    background: transparent;
+    font-size: 20px;
+    animation: bani 5s infinite;
+    padding: 8px;
+}
+button:hover{
+    background-color: rgb(176, 184, 230);
+}
+.log {
+    top: 60px;
+    left: 1380px;
+}
+
+.sign {
+    right: 1380px;
+    top: 60px;
+}
+
+h1 {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    animation: h1a 4s infinite;
+}
+
+@keyframes bani {
+    0% {
+        border-radius: 8px;
+        padding: 8px;
+    }
+
+    50% {
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    100% {
+        border-radius: 8px;
+        padding: 8px;
+    }
+}
+
+@keyframes h1a {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(0, 20px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes bat {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    90% {
+        transform: translate(0, -1000px);
+
+    }
+
+    99% {
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0, -1000px);
+    }
+}
+
+.ani {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: fixed;
+    bottom: -60px;
+    width: 100%;
+}
+
+.img {
+    width: 50px;
+    /* animation: bat 5s infinite; */
+}
+
+.img1 {
+    animation: bat 11s infinite;
+    width: 60px;
+}
+
+.img2 {
+    animation: bat 12s infinite;
+    width: 50px;
+}
+
+.img3 {
+    animation: bat 8s infinite;
+    width: 70px;
+}
+
+.img4 {
+    animation: bat 7s infinite;
+    width: 70px;
+}
+
+.img5 {
+    animation: bat 10s infinite;
+    width: 40px;
+}
+
+.img6 {
+    animation: bat 15s infinite;
+    width: 30px;
+}
+
+.img7 {
+    animation: bat 12s infinite;
+    width: 40px;
+}
+
+.img8 {
+    animation: bat 14s infinite;
+    width: 50px;
+}
